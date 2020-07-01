@@ -3,8 +3,7 @@
 require 'microsoft_api_management/configuration'
 require 'microsoft_api_management/client'
 
-# :nodoc:
-module MicrosoftApiManagement
+module MicrosoftApiManagement # :nodoc:
   def self.configure
     yield(configuration)
   end
