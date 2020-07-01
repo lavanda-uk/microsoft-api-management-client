@@ -7,10 +7,10 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 gem 'typhoeus', '~> 1.4'
 
 group :development do
-  gem 'rubocop'
+  gem 'rubocop', '~> 0.85.1'
 end
 
 group :test do
-  gem 'rspec'
-  gem 'webmock'
+  gem 'rspec', '~> 3.9'
+  gem 'webmock', '~> 3.8'
 end
