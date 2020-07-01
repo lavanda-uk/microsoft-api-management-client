@@ -1,0 +1,2 @@
+build:
+	gem build microsoft_api_management_client
