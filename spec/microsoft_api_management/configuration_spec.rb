@@ -15,7 +15,7 @@ module MicrosoftApiManagement
       it 'raises an exception' do
         expect { subject.subscription_id }.to raise_error(
           MissingConfiguration,
-          'Subscription key must be set'
+          'Subscription id must be set'
         )
       end
     end

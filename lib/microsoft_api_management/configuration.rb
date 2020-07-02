@@ -7,7 +7,7 @@ module MicrosoftApiManagement
     attr_writer :subscription_id
 
     def subscription_id
-      @subscription_id || (raise MissingConfiguration, 'Subscription key must be set')
+      @subscription_id || (raise MissingConfiguration, 'Subscription id must be set')
     end
   end
 end
